@@ -57,3 +57,9 @@
 .section2 {
   display: flex;
 }
+.section2 > #secdiv {
+  height: 100%;
+  width: 50%;
+  font-size: 50px;
+  margin-top: 200px;
+}
