@@ -63,3 +63,7 @@
   font-size: 50px;
   margin-top: 200px;
 }
+.images {
+  display: flex;
+  flex-direction: row;
+}
