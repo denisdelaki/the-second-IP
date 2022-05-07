@@ -119,3 +119,12 @@ span {
   text-decoration: none;
   font-size: large;
 }
+/* property  page styling properties */
+#header > .div-navi {
+  background-color: black;
+  padding: 70px;
+}
+#header > .modernhouse {
+  background-color: black;
+  padding: 50px;
+}
