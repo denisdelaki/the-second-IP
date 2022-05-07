@@ -10,3 +10,16 @@
   padding: 500px;
   height: 60vh;
 }
+.section1 > #division1 > h1 {
+  color: yellow;
+  font-size: 100px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+.navigation > a {
+  color: white;
+  float: right;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
