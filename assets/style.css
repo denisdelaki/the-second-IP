@@ -54,3 +54,6 @@
 .navigation {
   text-align: top;
 }
+.section2 {
+  display: flex;
+}
