@@ -20,18 +20,28 @@
   color: rgb(161, 163, 164);
   font-size: 50px;
 }
-.navigation {
-  text-align: top;
-}
-.navigation > a {
+
+.section1 > .navigation > a {
   display: flex;
   color: white;
   float: right;
   font-size: 20px;
-  padding: 50px;
+  justify-content: space-between;
   text-decoration: none;
+  margin-right: 70px;
 }
-.navigation > a > .login1{
+.section1 > .navigation >.login2{
  background-color: yellow;
+ color: black;
+ padding: 5px;
 }
+.section1 > .navigation >.login1{
+    background-color: black;
+    color: yellow;
+}
+.navigation {
+  text-align: top;
+}
+
+
 .navigation > a > .login2{
