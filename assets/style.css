@@ -7,7 +7,7 @@
 .section1 {
   background-image: url(../assets/images/moving\ 1.png);
   background-size: 100% 100%;
-  padding: 500px;
+  padding: 150px;
   height: 60vh;
 }
 .section1 > #division1 > h1 {
@@ -34,10 +34,15 @@
  background-color: yellow;
  color: black;
  padding: 5px;
+ padding-left: 25px;
+ padding-right: 25px;
 }
 .section1 > .navigation >.login1{
     background-color: black;
     color: yellow;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .navigation {
   text-align: top;
