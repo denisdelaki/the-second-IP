@@ -72,3 +72,9 @@ img {
   padding: 30px;
   margin: 30px;
 }
+.sec4 {
+  display: flex;
+}
+.sec4 > div {
+  padding: 200px;
+}
