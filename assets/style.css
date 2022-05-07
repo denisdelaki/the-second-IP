@@ -72,9 +72,29 @@ img {
   padding: 30px;
   margin: 30px;
 }
+#section4 {
+  background-color: black;
+}
+#section4 > .span {
+  color: aliceblue;
+  justify-content: center;
+}
+span {
+  color: rgb(238, 134, 60);
+}
+#section4 > .span > h1 {
+  font-size: 50px;
+  margin: 30px;
+  justify-content: center;
+}
 .sec4 {
   display: flex;
 }
 .sec4 > div {
   padding: 200px;
+  color: white;
+}
+.sec4 > div > p > .link {
+  color: rgb(193, 177, 177);
+  text-decoration: none;
 }
