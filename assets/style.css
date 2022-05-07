@@ -1,3 +1,12 @@
+* {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
 .section1 {
   background-image: url(../assets/images/moving\ 1.png);
+  background-size: 100% 100%;
+  padding: 500px;
+  height: 60vh;
 }
