@@ -7,8 +7,11 @@
 .section1 {
   background-image: url(../assets/images/moving\ 1.png);
   background-size: 100% 100%;
-  padding: 150px;
   height: 60vh;
+  padding: 150px;
+}
+.section1 > #division1 {
+  margin-top: 100px;
 }
 .section1 > #division1 > h1 {
   color: yellow;
@@ -20,6 +23,10 @@
   color: rgb(161, 163, 164);
   font-size: 50px;
 }
+.section1 > .navigation {
+  margin-right: 250px;
+  margin-bottom: 100px;
+}
 
 .section1 > .navigation > a {
   display: flex;
@@ -30,23 +37,20 @@
   text-decoration: none;
   margin-right: 70px;
 }
-.section1 > .navigation >.login2{
- background-color: yellow;
- color: black;
- padding: 5px;
- padding-left: 25px;
- padding-right: 25px;
+.section1 > .navigation > .login2 {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-.section1 > .navigation >.login1{
-    background-color: black;
-    color: yellow;
-    padding: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
+.section1 > .navigation > .login1 {
+  background-color: black;
+  color: yellow;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .navigation {
   text-align: top;
 }
-
-
-.navigation > a > .login2{
