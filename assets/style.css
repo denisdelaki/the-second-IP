@@ -66,4 +66,9 @@
 .images {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+img {
+  padding: 30px;
+  margin: 30px;
 }
