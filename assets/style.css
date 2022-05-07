@@ -123,8 +123,24 @@ span {
 #header > .div-navi {
   background-color: black;
   padding: 70px;
+  float: right;
 }
-#header > .modernhouse {
+#header > .div-navi > nav {
+  margin-right: 200px;
+}
+#header > .div-navi > nav > a {
+  color: white;
+  text-decoration: none;
+  padding: 40px;
+}
+#header > .division > .modernhouse {
   background-color: black;
   padding: 50px;
+}
+#header > .division > .modernhouse > h1 {
+  color: white;
+  font-size: 30px;
+}
+#header > .division > .modernhouse > p {
+  color: rgb(224, 219, 219);
 }
