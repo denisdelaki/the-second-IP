@@ -16,10 +16,18 @@
   margin-bottom: 30px;
   margin-right: 50px;
 }
+.section1 > #division1 > p {
+  color: rgb(161, 163, 164);
+  font-size: 50px;
+}
+.navigation {
+  text-align: top;
+}
 .navigation > a {
+  display: flex;
   color: white;
   float: right;
   font-size: 20px;
-  padding: 10px;
+  padding: 50px;
   text-decoration: none;
 }
