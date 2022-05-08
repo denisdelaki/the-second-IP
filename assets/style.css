@@ -120,27 +120,33 @@ span {
   font-size: large;
 }
 /* property  page styling properties */
-#header > .div-navi {
+/*styling the whole section*/
+#header {
   background-color: black;
-  padding: 70px;
-  float: right;
 }
-#header > .div-navi > nav {
-  margin-right: 200px;
+/*styling the navigation bar and the button*/
+#header > .div-navi > nav > button {
+  float: right;
+  padding: 10px;
 }
 #header > .div-navi > nav > a {
   color: white;
   text-decoration: none;
-  padding: 40px;
+  float: right;
+  padding: 30px;
+}
+/*styling the  header elements*/
+#header > .division {
+  display: flex;
 }
 #header > .division > .modernhouse {
-  background-color: black;
-  padding: 50px;
-}
-#header > .division > .modernhouse > h1 {
   color: white;
-  font-size: 30px;
+  padding: 40px;
 }
-#header > .division > .modernhouse > p {
-  color: rgb(224, 219, 219);
+#header > .division > .heading {
+  color: white;
+  float: right;
+  padding: 50px;
+  padding-top: 50px;
+  margin-left: 100%;
 }
